@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0B0B0B;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+
+    img {
+        width: 200px;
+
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+        padding-right: 50px;
+        flex-wrap: wrap;
+
+
+
+        li {
+            &:hover {
+                transform: scale(1.1);
+                transition-duration: 0.5s;
+
+            }
+
+
+            a {
+                color: white;
+
+
+
+
+
+            }
+        }
+    }
+
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 20px;
+
+    .bannerh {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        video {
+            width: 75vw;
+            opacity: 100px;
+
+
+        }
+
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        &_darius {display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url(../img/undercity.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px 10px 0px 0px;
+            width: 30%;
+
+            &:hover {
+                transform: scale(1.3);
+                transition-duration: 1s; 
+            }
+
+            
+
+
+            h2 {
+                color: aliceblue;
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            img {
+                width: 220px;
+            }
+
+        }
+
+
+        &_liz {display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url(../img/suramar.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px 10px 0px 0px;
+            width: 30%;
+
+            &:hover {
+                transform: scale(1.3);
+                transition-duration: 1s; 
+            }
+
+            
+
+
+            h2 {
+                color: aliceblue;
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            img {
+                width: 220px;
+            }
+
+
+        }
+
+        &_lorjin {display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url(../img/11.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px 10px 0px 0px;
+            width: 30%;
+
+            &:hover {
+                transform: scale(1.3);
+                transition-duration: 1s; 
+            }
+
+            
+
+
+            h2 {
+                color: aliceblue;
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            img {
+                width: 220px;
+            }
+
+
+        }
+
+        &_jowkun {display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url(../img/pandaria.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px 10px 0px 0px;
+            width: 30%;
+
+            &:hover {
+                transform: scale(1.3);
+                transition-duration: 1s; 
+            }
+
+            
+
+
+            h2 {
+                color: aliceblue;
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            img {
+                width: 300px;
+            }
+
+        }
+
+        &_voltrir {display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(../img/Cidade-de-Orgrimmar.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px 10px 0px 0px;
+            width: 30%;
+
+            &:hover {
+                transform: scale(1.3);
+                transition-duration: 1s;
+
+            }
+
+            h2 {
+                color: aliceblue;
+                font-size: 2rem;
+                text-align: center;
+
+            }
+
+            img {
+                width: 200px;
+            }
+
+
+
+
+        }
+
+
+    }
+}
