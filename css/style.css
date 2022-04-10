@@ -287,4 +287,22 @@ main .cards_voltrir h2 {
 main .cards_voltrir img {
   width: 200px;
 }
+
+@media (max-width: 460px) {
+  main .cards_liz img {
+    width: 150px;
+  }
+  main .cards_lorjin img {
+    width: 150px;
+  }
+  main .cards_darius img {
+    width: 150px;
+  }
+  main .cards_jowkun img {
+    width: 210px;
+  }
+  main .cards_voltrir img {
+    width: 150px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
