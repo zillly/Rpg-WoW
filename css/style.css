@@ -82,6 +82,11 @@ main .bannerh video {
   opacity: 100px;
 }
 
+main .h2p {
+  padding-left: 70px;
+  color: white;
+}
+
 main .cards {
   display: -webkit-box;
   display: -ms-flexbox;
